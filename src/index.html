@@ -1,17 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beaty Consulting</title>
+
+  <meta name="description" content="Beaty Consulting provides communication and engagement consulting for mining, IT, healthcare, and telecommunications organisations." />
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      color: #222;
+      line-height: 1.6;
+      background-color: #ffffff;
+    }
+
+    header {
+      background-color: #0f2a44;
+      color: #ffffff;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+
+    header p {
+      max-width: 800px;
+      margin-top: 15px;
+      font-size: 1.1rem;
+      color: #dce6f0;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #0f2a44;
+    }
+
+    .services, .industries {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .card {
+      border: 1px solid #e0e0e0;
+      padding: 25px;
+      border-radius: 6px;
+      background-color: #fafafa;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .cta {
+      background-color: #eef4fa;
+      border-left: 5px solid #0f2a44;
+      padding: 30px;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #0f2a44;
+      padding: 12px 20px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
 
+<header>
+  <h1>Beaty Consulting</h1>
+  <p>
+    Communication and engagement consulting for organisations operating in complex,
+    highly regulated, and people-focused environments.
+  </p>
+</header>
+
+<section>
+  <h2>What We Do</h2>
+  <p>
+    Beaty Consulting helps organisations communicate clearly, engage effectively,
+    and build trust with their stakeholders. We work with leadership teams, project
+    groups, and operational teams to ensure messages are understood, risks are managed,
+    and engagement is purposeful.
+  </p>
+
+  <div class="services">
+    <div class="card">
+      <h3>Communication Strategy</h3>
+      <p>
+        Practical communication strategies aligned to organisational goals,
+        change programs, and operational realities.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Stakeholder Engagement</h3>
+      <p>
+        Structured engagement approaches that improve outcomes with internal
+        and external stakeholders.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Change & Project Communications</h3>
+      <p>
+        Clear, consistent communication to support technology, process,
+        and organisational change.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Risk & Issue Communications</h3>
+      <p>
+        Support for sensitive, high-risk, or high-impact communication
+        scenarios.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Industries We Work With</h2>
+  <p>
+    Our experience spans industries where clear communication and effective
+    engagement are critical to success.
+  </p>
+
+  <div class="industries">
+    <div class="card">
+      <h3>Mining & Resources</h3>
+      <p>
+        Supporting communication and engagement across operations, projects,
+        and community interfaces.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Information Technology</h3>
+      <p>
+        Helping organisations communicate complex technical change in a
+        practical and understandable way.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Healthcare</h3>
+      <p>
+        Clear, considered communication in environments where people,
+        safety, and outcomes matter most.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Telecommunications</h3>
+      <p>
+        Engagement and communication support for large-scale infrastructure
+        and service environments.
+      </p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h3>Get in Touch</h3>
+    <p>
+      If you’d like to discuss how Beaty Consulting can support your organisation,
+      we’d be happy to have a conversation.
+    </p>
+    <a href="mailto:info@beatyconsulting.com">Contact Us</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Beaty Consulting. All rights reserved.
+</footer>
+
+</body>
 </html>
